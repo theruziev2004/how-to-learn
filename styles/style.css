@@ -244,6 +244,8 @@
   align-items: center;
   overflow: hidden;
   margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-title__theme_dark {
@@ -319,7 +321,7 @@
   }
 
 .footer__column_content_info {
-  margin-left: 600px;
+  margin-left: 400px;
 }
 
 .footer__author {
