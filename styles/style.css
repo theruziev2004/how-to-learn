@@ -18,14 +18,8 @@
   align-items: center;
   background-color: #f2f2f2;
   margin-bottom: 64px;
-  
 
   /* выше установили ограничения для секции */
-}
-
-.logo {
-  position: absolute;
-  align-self: start;
 }
 
 .logo_place_header {
@@ -33,6 +27,9 @@
   height: 32px;
   margin-top: 30px;
   margin-left: 64px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .header__title {
@@ -41,16 +38,19 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 3;
 }
 .header__subtitle {
   position: absolute;
-  align-self: flex-end;
+  bottom: 0;
+  left: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  width: 388px;
   margin-left: 64px;
   margin-bottom: 30px;
-  width: 388px;
+  z-index: 3;
 }
 
 .header__link {
@@ -68,13 +68,16 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  width: 568px;
+  height: 568px;
+  /*
   height: 568px;
   width: 568px;
   position: absolute;
   right: 0;
   bottom: 0;
   background-color: #2f80ed;
-  z-index: 1;
+  z-index: 1;*/
 }
 
 .two-columns {
@@ -130,7 +133,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
-  
+
 
 }
 .section-title {
@@ -142,7 +145,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  
+
 }
 
 .table__digit {
@@ -262,7 +265,7 @@
   font-size: 24px;
   font-weight: normal;
   align-self: center;
-  text-align: center; 
+  text-align: center;
 }
 
 .table___theme_dark {
