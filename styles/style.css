@@ -84,6 +84,7 @@
   margin-bottom: 100px;
   display: flex;
   align-items: center;
+  justify-content: center;
 
 }
 
@@ -105,8 +106,9 @@
   font-weight: normal;
   color: #2f80ed;
   align-self: start;
-  margin-right: 80px;
-
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .two-columns__paragraph {
@@ -185,7 +187,7 @@
 
 .feynman {
   position: relative;
-  padding-top: 0;
+  padding-top: 100px;
   min-height: 790px;
   background-color: #f2f2f2;
   z-index: 1;
@@ -193,7 +195,7 @@
 
 .feynman__illustration {
   width: 867px;
-  height: 673px;
+  height: 637px;
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -230,13 +232,11 @@
   top: 50%;
   right: 48px;
   text-decoration: none;
-}
-.link {
   text-decoration: none;
   color: black;
 }
 
-.link:hover {
+.feyman__link:hover {
   color: #2f80ed;
 }
 
@@ -254,7 +254,7 @@
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  z-index: 3;
+  z-index: 2;
 }
 
 .section-title_theme_dark {
@@ -266,6 +266,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  z-index: 3;
 }
 .section-subtitle_theme_dark {
   width: 60%;
@@ -274,6 +275,7 @@
   font-weight: normal;
   align-self: center;
   text-align: center;
+  z-index: 4;
 }
 
 .table_theme_dark {
@@ -289,7 +291,9 @@
   width: 200px;
   list-style-type: none;
   z-index: 2;
-  margin: auto;
+  margin-top: 80px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .table__heading_theme_dark {
@@ -306,6 +310,7 @@
 }
 
 .kaufman__triangle {
+  background-image: url(/images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
   background-repeat: no-repeat;
@@ -319,18 +324,20 @@
   position: relative;
   background-color: #1f1f1f;
   min-height: 350px;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
 }
 
 
 .footer__columns {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 40px;
-  padding-top: 60px;
   display: flex;
   width: 90%;
   justify-content: space-between;
-  box-sizing: border-box;
 }
 
 .footer__column_content_copyright {
@@ -343,11 +350,8 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  margin-bottom: 18px;
-  margin-top: 18px;
-  /*Я не понял как тут не с помощью absolute делать*/
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: -150px;
 }
 .footer__column-heading {
   margin: 0;
@@ -358,16 +362,22 @@
   margin-bottom: 20px;
 }
 .footer__column-links {
+  padding-left: 0;
   display: block;
   margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
+  list-style-type: none;
   text-decoration: none;
   }
 
-
+.footer__list-item {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
 
 .footer__social-icon {
   width: 16px;
