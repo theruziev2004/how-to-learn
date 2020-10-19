@@ -84,7 +84,7 @@
   margin-bottom: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
 }
 
@@ -117,6 +117,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .two-columns__row {
@@ -309,7 +311,8 @@
 }
 /*когда я слеш ставлю он у меня показывает*/
 .kaufman__triangle {
-  background-image: url(images/kaufman-triangle.svg);
+  background-image: url(/images/kaufman-triangle.svg);
+  background-size: 877px 877px;
   width: 877px;
   height: 877px;
   background-repeat: no-repeat;
@@ -328,6 +331,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
+  border: red solid;
 }
 
 
@@ -337,10 +341,16 @@
   display: flex;
   width: 90%;
   justify-content: space-between;
+  border: red solid;
+  height: 250px;
 }
 
+
 .footer__column_content_copyright {
+  display: flex;
   flex-basis: 711px;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 
@@ -349,9 +359,15 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  position: relative;
-  bottom: -150px;
+  padding-bottom: 18px;
+  padding-top: 18px;
 }
+
+.logo_place_footer {
+  justify-content: flex-end;
+}
+
+
 .footer__column-heading {
   margin: 0;
   font-weight: bold;
