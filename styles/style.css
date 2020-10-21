@@ -324,6 +324,7 @@
   box-sizing: border-box;
   padding-bottom: 40px;
   padding-top: 60px;
+  min-height: 350px;
 }
 
 .footer__columns {
@@ -332,7 +333,7 @@
   width: 90%;
   justify-content: space-between;
   color: white;
-  min-height: 350px;
+  min-height: 250px;
 }
 
 .footer__column_content_copyright {
@@ -379,7 +380,7 @@
   font-weight: normal;
 }
 
-.footer__social-icon {
+.footer__column_content_social {
   width: 16px;
   height: 16px;
   margin-right: 10px;
