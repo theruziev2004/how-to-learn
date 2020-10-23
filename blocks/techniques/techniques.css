@@ -1,0 +1,43 @@
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.cards {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  position: relative;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.cards__item {
+  width: 250px;
+  list-style-type: none;
+  margin-right: 100px;
+}
+
+.card__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px 40px;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cards__description {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
