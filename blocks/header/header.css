@@ -1,70 +1,25 @@
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  background-color: #f2f2f2;
-  margin-bottom: 64px;
-  overflow: hidden;
-  /* выше установили ограничения для секции */
-}
+  @import url(./__title/header__title.css);
+  @import url(./__subtitle/header__subtitle.css);
+  @import url(./__link/header__link.css);
+  @import url(./__main-illustration/header__main-illustration.css);
+  @import url(./__square-pic/header__square-pic.css);
+  .header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin-bottom: 64px;
+    overflow: hidden;
+    /* выше установили ограничения для секции */
+  }
 
-.logo_place_header {
-  position: absolute;
-  width: 183px;
-  height: 32px;
-  top: 30px;
-  left: 64px;
-}
-
-.header__title {
-  width: 730px;
-  margin-left: 64px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-  z-index: 3;
-}
-
-.header__subtitle {
-  position: absolute;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  width: 388px;
-  left: 64px;
-  bottom: 30px;
-  z-index: 3;
-}
-
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  right: 0px;
-  bottom: 0;
-  z-index: 2;
-}
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-
-.header__square-pic {
-  background-color: #2f80ed;
-  width: 568px;
-  height: 568px;
-  position: absolute;
-  overflow: hidden;
-  right: 0;
-  top: 64px;
-  z-index: 1;
-  transform: rotate(-15deg);
-  animation: rotation linear 20s infinite;
-}
+  .logo_place_header {
+    position: absolute;
+    width: 183px;
+    height: 32px;
+    top: 30px;
+    left: 64px;
+  }
