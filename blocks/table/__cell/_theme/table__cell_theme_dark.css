@@ -1,0 +1,8 @@
+.table__cell_theme_dark {
+  width: 200px;
+  list-style-type: none;
+  z-index: 2;
+  margin-top: 80px;
+  margin-left: 0;
+  margin-right: 0;
+}

@@ -15,11 +15,3 @@
     overflow: hidden;
     /* выше установили ограничения для секции */
   }
-
-  .logo_place_header {
-    position: absolute;
-    width: 183px;
-    height: 32px;
-    top: 30px;
-    left: 64px;
-  }

@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать&rarr;</a>
       </p>
       <img src="images/header-image.png" alt="Фотка мальчика" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -42,32 +42,32 @@
 
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
-        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
-            <img src="images_sprint-2/cards-attention.png" alt="Виды внимания" class="cards__image">
-            <h2 class="cards__title">Два вида внимания</h2>
+            <img src="images/cards-attention.png" alt="Виды внимания" class="cards__image">
+            <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </li>
           <li class="cards__item">
-            <img src="images_sprint-2/cards-recall.png" alt="Recall" class="cards__image">
-            <h2 class="cards__title">Recall</h2>
+            <img src="images/cards-recall.png" alt="Recall" class="cards__image">
+            <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </li>
           <li class="cards__item">
-            <img src="images_sprint-2/cards-interliving.png" alt="Интерливинг" class="cards__image">
-            <h2 class="cards__title">Интерливинг</h2>
+            <img src="images/cards-interliving.png" alt="Интерливинг" class="cards__image">
+            <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
           </li>
           <li class="cards__item">
-            <img src="images_sprint-2/cards-question.png" alt="Вопросы" class="cards__image">
-            <h2 class="cards__title">Вопросы</h2>
+            <img src="images/cards-question.png" alt="Вопросы" class="cards__image">
+            <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </li>
           <li class="cards__item">
-            <img src="images_sprint-2/cards-competence.png" alt="Иллюзия компетентности" class="cards__image">
-            <h2 class="cards__title">Иллюзия компетентности</h2>
+            <img src="images/cards-competence.png" alt="Иллюзия компетентности" class="cards__image">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
         </ul>
@@ -146,14 +146,14 @@
 
       <section class="khan">
         <div class="khan__container">
-          <h2 class="khan__author">Салман Хан</h2>
-          <div class="khan__title">Весь мир — школа</div>
-          <div class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех
-            в школе, карьере и жизни.</div>
-          <div class="khan__quote-author">Джордж Лукас</div>
-          <div class="khan__quote-author-subline">Кинорежиссер, продюсер</div>
+          <p class="khan__author">Салман Хан</p>
+          <h3 class="khan__title">Весь мир — школа</h3>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех
+            в школе, карьере и жизни.</blockquote>
+          <h4 class="khan__quote-author">Джордж Лукас</h4>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <img src="images_sprint-2/khan-book.jpg" alt="Книга" class="khan__book-pic">
+            <img src="images/khan-book.jpg" alt="Книга" class="khan__book-pic">
             <a href='#' class="khan__buy-link">Купить книгу &rarr;</a>
           </div>
 
@@ -206,19 +206,27 @@
           </li>
         </ul>
         <!--Я сделал как вы сказали, но он не заработал-->
-        <div class="kaufman__triangle">
+        <div class="kaufman__triangle rotation">
         </div>
       </section>
 
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-        <div class="resources__logo-zone">
-          <a href="#" class="resources__logo resources__logo_arzamas"></a>
-          <a href="#" class="resources__logo resources__logo_N1"></a>
-          <a href="#" class="resources__logo resources__logo_strelka"></a>
-          <a href="#" class="resources__logo resources__logo_polka"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="#"><img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+          </li>
+          <li>
+            <a href="#"><img class="resources__logo" src="images/logo/resources-n1.svg" alt="Н + 1"></a>
+          </li>
+          <li>
+            <a href="#"><img class="resources__logo" src="images/logo/resources-strelka.svg" alt="Стрелка"></a>
+          </li>
+          <li>
+            <a href="#"><img class="resources__logo" src="images/logo/resources-polka.svg" alt="Полка"></a>
+          </li>
+        </ul>
       </section>
 
     </main>
