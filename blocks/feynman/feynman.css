@@ -1,10 +1,16 @@
- @import url(./__title/feynman-title.css);
+ @import url(./__title/feynman__title.css);
  @import url(./__subtitle/feynman__subtitle.css);
  @import url(./__link/feynman__link.css);
  @import url(./__illustration/feynman__illustration.css);
  .feynman {
+   height: 790px;
    position: relative;
-   min-height: 790px;
+   background-image: url(../../images/feynman.png);
+   background-repeat: no-repeat;
+   background-position: bottom 0 left 0;
+   background-size: 867px 637px;
    background-color: #f2f2f2;
-   z-index: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
  }
